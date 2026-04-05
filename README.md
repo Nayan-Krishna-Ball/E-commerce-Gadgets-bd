@@ -2,9 +2,9 @@
 
 A modern Next.js e-commerce application for gadgets, featuring separate interfaces for clients and shop owners. Users can browse products, place orders, and review products, while shop owners can manage inventory and shop details. Built with Next.js, React, Tailwind CSS, and MongoDB.
 
-## Project GitHub Repository:
+## Project GitHub Repository: https://github.com/Nayan-Krishna-Ball/E-commerce-Gadgets-bd
 
-## Live Demo (Vercel):
+## Live Demo (Vercel): https://e-commerce-gadgets-bd.vercel.app/
 
 # Version
 
@@ -204,7 +204,7 @@ GadgetsBD/
 
 ## Clone the repository
 
-git clone
+git clone https://github.com/Nayan-Krishna-Ball/E-commerce-Gadgets-bd
 
 ## Install dependencies
 
