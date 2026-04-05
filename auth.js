@@ -4,6 +4,7 @@ import bcrypt from "bcryptjs";
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import GoogleProvider from "next-auth/providers/google";
+import { connectDB } from "./lib/db";
 import mongoClientPromise from "./lib/mongoClientPromise";
 import {
   generateAccessToken,
@@ -33,6 +34,9 @@ export const {
       },
 
       async authorize(credentials) {
+        //conntect to db
+        await connectDB();
+
         const { email, password, role } = credentials;
 
         if (!email || !password) {
